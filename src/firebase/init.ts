@@ -6,13 +6,15 @@ import { getFirestore } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
+//  this is test mode thats why i dont put all credential in env file
 const firebaseConfig = {
-    apiKey: "AIzaSyA5x-bLyb6hzWcuPuBwQ0SV7NsK7UvV-nY",
-    authDomain: "assigmenttodo.firebaseapp.com",
-    projectId: "assigmenttodo",
-    storageBucket: "assigmenttodo.appspot.com",
-    messagingSenderId: "486859357653",
-    appId: "1:486859357653:web:7aa27b3fcdca6e2ba7d15c"
+  apiKey: "AIzaSyA5x-bLyb6hzWcuPuBwQ0SV7NsK7UvV-nY",
+  authDomain: "assigmenttodo.firebaseapp.com",
+  projectId: "assigmenttodo",
+  storageBucket: "assigmenttodo.appspot.com",
+  messagingSenderId: "486859357653",
+  appId: "1:486859357653:web:7aa27b3fcdca6e2ba7d15c",
 };
 
 // Initialize Firebase
